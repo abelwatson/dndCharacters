@@ -1,0 +1,22 @@
+body {
+    background-color: #000a1a;
+    background-image:url(assets/tumblr_ppbfsy2F5j1vnbytq_1280.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Courier New', monospace;
+}
+
+.characterSelection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-template-rows: 80px 80px;
+    text-align: center;
+}
+
+.characterSelection h1{
+    border: #C39953 ridge 5px;
+    border-radius: 8px;
+    background-color: grey;
+    font-size: 30px;
+}
